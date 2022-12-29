@@ -5,8 +5,6 @@
 
 void main() {
 
-    ////// Ignore, don't know how to implement installing attachments yet
-
     string upgraded = cli_execute("autumnaton upgrade");
     
     string currentUpgrades = get_property("autumnatonUpgrades");
