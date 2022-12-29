@@ -74,7 +74,7 @@ void main() {
                 // print("Failed to send autumn-aton to " + SendLocs[k,place] + ". Are you sure you have it unlocked?");
                 }
             else if (cli_execute(sendstr) == false && place == m && partidx == n) {
-                print("Sorry, couldn't send the autumn-aton anywhere! T_T Try again once you've unlocked more areas!");
+                print("Sorry, couldn\'t send the autumn-aton anywhere! T_T Try again once you've unlocked more areas!");
             }
             else {
                 print("Sent the autumn-aton to " + SendLocs[k,place]);
